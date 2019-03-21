@@ -2,11 +2,11 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.use(express.static(__dirname + '/dist/hichki-angular4'));
+app.use(express.static(__dirname + '/dist/hichkiAngular4'));
 
 app.listen(process.env.PORT || 8080);
 
 app.get('/*', function(req, res){
-    res.sendFile(path.join(__dirname + '/dist/hichki-angular4/index.html'));
+    res.sendFile(path.join(__dirname + '/dist/hichkiAngular4/index.html'));
 })
 console.log('Console listening');
