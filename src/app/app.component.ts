@@ -9,6 +9,6 @@ import { HttpErrorResponse } from "@angular/common/http";
 })
 
 export class AppComponent {
-  title = 'Vijaya Blog ';
+  title = 'Angular Basics';
 
 }
